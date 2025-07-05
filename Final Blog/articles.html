@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles | GSMS Blog</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .article-content {
+      display: none;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <h1><a href="index.html">GSMS Blog</a></h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html" class="active">Articles</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="highlight">
+        <h2>🧠 My Explorations</h2>
+
+        <article>
+          <h3>📊 What Makes Algorithmic Trading Tick?</h3>
+          <p>I’ve been diving into the mechanics behind algorithmic trading using Python. From moving averages to sentiment-driven execution models, it's all about blending market data with well-tuned strategies.</p>
+          <button class="read-more-btn">Read More</button>
+          <div class="article-content">
+            <p>Algorithmic trading, at its core, is about precision, speed, and discipline. It's the practice of using computer programs to execute trading orders in financial markets at speeds and frequencies that are impossible for a human trader. The "tick" of algorithmic trading is the constant stream of market data—prices, volumes, and order book information—that feeds into the trading system. This data is then processed by a set of predefined rules and models to make trading decisions. These models can be as simple as a moving average crossover strategy, where a buy or sell signal is generated when a short-term moving average crosses a long-term moving average. Or they can be as complex as a machine learning model that analyzes vast amounts of data, including news, social media sentiment, and economic indicators, to predict market movements.</p>
+            <p>The beauty of algorithmic trading lies in its ability to remove emotion from the trading process. Fear and greed, the two most powerful emotions that drive human trading decisions, are replaced by cold, hard logic. This allows for a more systematic and disciplined approach to trading, which can lead to more consistent results over the long term. However, it's not without its challenges. The markets are constantly evolving, and an algorithm that works today may not work tomorrow. Therefore, it's crucial to continuously monitor and adapt the trading strategies to the changing market conditions. This is where the human element comes back into play. While the algorithm executes the trades, it's the human trader who designs, tests, and refines the trading strategies. It's a fascinating intersection of finance, technology, and human ingenuity.</p>
+          </div>
+        </article>
+
+        <article>
+          <h3>💹 Lessons from “One Up On Wall Street”</h3>
+          <p>This book reshaped how I view investing. Lynch’s approach to spotting opportunities in everyday life helped me rethink how trends can emerge outside stock charts—and that's powerful when combined with AI analysis.</p>
+          <button class="read-more-btn">Read More</button>
+          <div class="article-content">
+            <p>Peter Lynch's "One Up On Wall Street" is a timeless classic that has inspired generations of investors. The book's central thesis is that individual investors have an edge over institutional investors because they can spot investment opportunities in their everyday lives before they become mainstream. Lynch argues that by paying attention to the products and services we use and love, we can identify companies with strong growth potential long before they appear on the radar of Wall Street analysts. This "local knowledge" is a powerful tool that can be used to generate superior investment returns.</p>
+            <p>In today's world, where we are inundated with data, Lynch's message is more relevant than ever. The rise of social media and the internet has created a treasure trove of information that can be used to identify emerging trends and consumer preferences. By combining Lynch's "scuttlebutt" approach with modern data analysis techniques, we can gain an even deeper understanding of the companies we are investing in. For example, we can use sentiment analysis to gauge public opinion about a company's products or services, or we can use web scraping to track a company's online sales and customer reviews. This fusion of traditional investment wisdom and cutting-edge technology is a powerful combination that can help us make more informed investment decisions.</p>
+          </div>
+        </article>
+
+        <article>
+          <h3>🧘‍♂️ Trading Psychology & the Bhagavad Gita</h3>
+          <p>Discipline, detachment, and composure—timeless lessons from the Gita that surprisingly align with successful trading behavior. The emotional side of trading is half the battle, and this ancient guide offers real clarity.</p>
+          <button class="read-more-btn">Read More</button>
+          <div class="article-content">
+            <p>The Bhagavad Gita, an ancient Indian scripture, may seem like an unlikely source of wisdom for modern traders, but its teachings on psychology and self-discipline are remarkably relevant to the world of finance. The Gita emphasizes the importance of acting without attachment to the fruits of one's actions, a concept known as "Nishkama Karma." In the context of trading, this means focusing on the process of making sound trading decisions rather than being consumed by the outcome of each individual trade. By detaching ourselves from the emotional rollercoaster of profits and losses, we can maintain a clear and objective mindset, which is essential for long-term success in the markets.</p>
+            <p>The Gita also teaches us the importance of self-awareness and emotional control. It encourages us to observe our thoughts and emotions without judgment, and to act with a sense of equanimity, regardless of the external circumstances. This is particularly important in trading, where fear and greed can often cloud our judgment and lead to impulsive decisions. By cultivating a state of inner calm and composure, we can avoid the common pitfalls of emotional trading and make more rational and disciplined choices. The Gita's teachings are not about suppressing our emotions, but about understanding and mastering them, so that we can act with clarity, purpose, and a steady hand, even in the face of market volatility.</p>
+          </div>
+        </article>
+
+        <article>
+          <h3>📈 Sentiment Analysis: Turning Tweets Into Trades</h3>
+          <p>By applying NLP models, I’ve explored how social signals from Twitter can influence price movement. I’ve built simple sentiment pipelines that extract polarity and aggregate it into market bias signals.</p>
+          <button class="read-more-btn">Read More</button>
+          <div class="article-content">
+            <p>Sentiment analysis, a subfield of Natural Language Processing (NLP), has emerged as a powerful tool for gauging market sentiment and predicting price movements. The proliferation of social media platforms like Twitter has created a vast and unstructured dataset of public opinion, which can be harnessed to gain a unique edge in the financial markets. By analyzing the sentiment of tweets related to a particular stock or asset, we can get a real-time pulse of the market and identify potential trading opportunities.</p>
+            <p>The process of turning tweets into trades involves several steps. First, we need to collect a large dataset of tweets related to the asset we are interested in. This can be done using the Twitter API or other data providers. Next, we need to preprocess the text data to remove noise and irrelevant information. This includes tasks like tokenization, stemming, and removing stop words. Once the data is cleaned, we can use a sentiment analysis model to classify each tweet as positive, negative, or neutral. Finally, we can aggregate the sentiment scores to create a time series of market sentiment, which can be used as an input for our trading strategy. For example, we could go long on a stock when the sentiment is overwhelmingly positive and short when it's overwhelmingly negative. Of course, sentiment analysis is not a crystal ball, and it should be used in conjunction with other forms of analysis, but it can be a valuable tool in a trader's arsenal.</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 GSMS Blog | Thoughts fueled by code and curiosity.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.read-more-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const articleContent = button.nextElementSibling;
+        if (articleContent.style.display === 'none' || articleContent.style.display === '') {
+          articleContent.style.display = 'block';
+          button.textContent = 'Read Less';
+        } else {
+          articleContent.style.display = 'none';
+          button.textContent = 'Read More';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
